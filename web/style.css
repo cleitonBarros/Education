@@ -212,11 +212,121 @@ nav::after{
   background-color:transparent;
 }
 .status-box p{
-    margin-top: 20px;
-    text-align: center;
+    font-weight: bold;
+}
+/*envie seu currico*/
+#employer-container{
+    background: snow;
+    padding: 5em 0;
 
 }
- 
+#employer-container img{
+    width: 60vh;
+    float: left;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+.employer-box{
+    display: flex;
+    width: 55%;
+    height: 50%;
 
+}
+.employer-txt{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 250px;
+    height: 110%;
+    padding: 40px 40px;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    background:rgba(150, 184, 234, 1);
+}
+.employer-txt p{
+    font-size: 20pt;
+    
+}
+.employer-txt a {
+    margin-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: white;
+    padding: 1em;
+    transition: 0.5s;
+    font-weight: 700;
+}
+.employer-txt a:hover{
+    color: white;
+    background-color: rgb(122, 122, 238);
+   
+}
+/*footer*/
+footer{
+    border-top: 2px solid #000000;
+    background-color: #424141;
+    padding-top:1em;
+    padding-bottom: 1em;
+}
+footer p, footer h2, footer a, footer span{
+    color: #fff;
 
+}
+footer p{
+    font-size: 15px;
+}
+footer h2{
+    font-weight:  400;
+}
+footer a{
+    text-decoration: none;
+}
+ footer li{
+     list-style: none;
+}
+.footer-box{
+    width: 30%;
+    padding: 1%;
+    float: left;
+}
+footer .wrapper:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.footer-box img{
+    width: 50px;
+    height: 50px;
+
+}
+.company-box{
+    width: 80%;
+    
+}
+.company-box h2 .company-box p {
+   margin-top: 50px
+}
+.footer-bottom{
+    text-align: center;
+}
+.pay-box{
+     margin-top: 60px;
+     font-size: 14pt;
+}
+.pay-box ul {
+     margin-left: 25px;
+
+}
+.fab{
+    font-size:30px;
+    margin-right:  10px;
+    float: left;
+    margin-bottom: 10px;
+    color:  white;
+}
 
