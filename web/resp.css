@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5 , p ,span{
+    margin: 0;
+}
+@media screen and ( max-width: 1050px){
+    
+    .nav-container img{
+        position: absolute;
+        left: 50px;
+    }
+    .nav-container h2{
+        position: absolute;
+        left:130px;
+        font-size: 30px;
+    }
+    .nav-container ul {
+       padding: 0 40px;
+    }
+    .nav-container ul li{
+        margin: 0 10px;
+
+    }
+    .nav-container li a{
+        font-size: 14px;
+        
+    }
+  
+    .status-box img{
+        width: 40%;
+        height: 40%;
+        border-radius:100px;
+        border: 1px solid black;
+        background-color:transparent;
+      }
+ 
+}

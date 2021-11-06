@@ -80,43 +80,47 @@ nav::after{
 #search-form{
     margin-top: 100px;
     position: relative;
-    width: 100%;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     padding:0.1em;
-    background-color:ftransparent;
+    background-color:transparent;
 }
 #search-form ul {
-    float: center;
+    align-items: center;
     width: 100%;
     padding: 0;
+    margin-left: 20%;
 }
-#search-form ul li{
+#search-form  li{
     list-style: none;
     display: inline-block;
-    width: 30%;
+    margin-left: 10px;
    
+}
+#search-form li:first-child{
+    
 }
 #search-form ul li:last-child{
     margin-right: 0;
 
 }
-#search-form span{
+#search-form p{
     font-size: 15pt;
    margin-left: 80px;
 }
 
 #search-form input{
-    width: 850px;
-    margin-left: -200px;
+    width: 500px;
+    align-items:  center;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 20px;
     background-color: white;
     padding: 1em;
 }
-#search-form  a{
-    margin-left: 350px;
+#search-form  button{
+   
     text-decoration: none;
     color: #666;
     text-transform: uppercase;
@@ -124,13 +128,19 @@ nav::after{
     background-color: rgba(150, 184, 234, 1);
     padding: 1em;
 }
+#search-form  button::after{
+    clear: both;
+    content: "";
+    display: block;
+
+}
 /*banne*/
 
 #main-banner{
     background: url('img/banner01.jpg') no-repeat;
     background-size: cover;
     background-position: 0 55%;
-    position: relative;       
+         
 }
 #banner{
   position: relative;
@@ -159,7 +169,8 @@ nav::after{
 #status-container{
     background: url("img/banner3.jpg") no-repeat;
     background-size: cover;
-    padding: 10em 0;
+    background-position: 0 55%;
+    position: relative;
 }
 #status-container h2 , #status-container p{
     color: #fff;
@@ -173,9 +184,11 @@ nav::after{
     margin-bottom: 50px;
     font-size: 18px;
 }
+
 .status-box{
     display: inline-block;
     width: 24%;
+
     text-align: center;
 }
 #status-container .status-box .title-status{
@@ -186,6 +199,7 @@ nav::after{
     border-radius: 20px;
     position: relative;
     margin: 35px auto;
+    margin-right: 35px;
     font-style: italic;
     padding: 15px;
 }
@@ -267,66 +281,104 @@ nav::after{
    
 }
 /*footer*/
-footer{
-    border-top: 2px solid #000000;
-    background-color: #424141;
-    padding-top:1em;
-    padding-bottom: 1em;
+footer {
+	background-color: #666;
+	padding: 1em 0;
+	padding-bottom: 40px;
 }
-footer p, footer h2, footer a, footer span{
-    color: #fff;
+
+footer h2, footer p, footer a, footer span {
+	color: #D1D1D1;
+}
+
+footer h2 {
+	font-weight: 400;
+}
+footer img{
+    width: 50%;
+    height: 50%;
 
 }
-footer p{
-    font-size: 15px;
-}
-footer h2{
-    font-weight:  400;
-}
-footer a{
-    text-decoration: none;
-}
- footer li{
-     list-style: none;
-}
-.footer-box{
-    width: 30%;
-    padding: 1%;
-    float: left;
-}
-footer .wrapper:after{
-    clear: both;
-    content: "";
-    display: block;
-}
-.footer-box img{
-    width: 50px;
-    height: 50px;
 
+footer a {
+	text-decoration: none;
 }
-.company-box{
-    width: 80%;
-    
+
+footer ul {
+	padding: 0;
 }
-.company-box h2 .company-box p {
-   margin-top: 50px
+
+footer li {
+	list-style: none;
 }
-.footer-bottom{
+
+.footer-box {
+	width: 31%;
+	padding: 1%;
+	float: left;
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.company-footer {
+	width: 80%;
+}
+
+.company-footer h2 {
+	margin-top: 20px;
+}
+
+.company-footer h2, .company-footer p {
+	margin-bottom: 20px;
+}
+
+.footer-list li {
+	margin-bottom: 15px;
+}
+
+.footer-list a {
+	transition: 0.5s;
+}
+
+.footer-list a:hover {
+	color: #FFF;
+}
+
+.footer-list li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.articles-footer {
+	width: 80%;
+}
+
+
+.fab {
+	font-size: 30px;
+	margin-right: 10px;
+	float: left;
+}
+
+.footer-list li span {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.footer-bottom {
+	border-top: 1px solid #B2B2B2;
     text-align: center;
 }
-.pay-box{
-     margin-top: 60px;
-     font-size: 14pt;
-}
-.pay-box ul {
-     margin-left: 25px;
 
+.footer-bottom p {
+	font-weight: 100;
+	margin-top: 40px;
 }
-.fab{
-    font-size:30px;
-    margin-right:  10px;
-    float: left;
-    margin-bottom: 10px;
-    color:  white;
-}
+
 
